@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:id="@+id/itemText"
+        android:text="New Text"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/itemEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:text=" Edit "
+        android:textSize="15dp"
+        app:layout_constraintLeft_toRightOf="@id/itemText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/itemDelete"
+        android:text="Delete"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintLeft_toRightOf="@id/itemEdit"/>
+
+</android.support.constraint.ConstraintLayout>
